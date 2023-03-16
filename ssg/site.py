@@ -1,6 +1,6 @@
 from pathlib import Path
 
 class Site:
-    def contructor(self, source, dest):
+    def __init__(self, source, dest):
         Path(source)
         Path(dest)
