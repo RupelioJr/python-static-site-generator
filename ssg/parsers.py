@@ -4,5 +4,7 @@ from pathlib import Path
 class Parser:
     extensions: List[str] = []
     def valid_extension(self, extension):
-        if self.extensions in extension:
-            return extension
+        return extension in self.extensions
+    
+    def parse(self, path, source, dest):
+        raise NotImplementedError
