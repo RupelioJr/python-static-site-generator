@@ -22,4 +22,4 @@ class Site:
                 return parser
             
     def run_parser(self, path):
-        parser = load_parser(path.suffix)
+        parser = self.load_parser(path.suffix)
