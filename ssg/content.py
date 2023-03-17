@@ -30,3 +30,6 @@ class Content(Mapping):
 
     def __getitem__(self, key):
         return self.data[key]
+    
+    def __len__(self):
+        return self.data
