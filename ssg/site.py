@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 
 class Site:
     def __init__(self, source, dest, parsers = None):
