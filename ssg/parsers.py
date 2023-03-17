@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 from docutils.core import publish_parts
 from markdown import markdown
-from ssg.content import Content
+from content import Content
 
 class Parser:
     extensions: List[str] = []
